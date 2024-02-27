@@ -8,8 +8,8 @@ pipeline
                 steps
                     {
                      git "https://github.com/amrutha2607/amruthafeb26.git"
-                     sh 'java demo.java'
-                     sh 'python3 main.py'
+                     sh "java demo.java"
+                     sh "python3 main.py"
                      }
                 }
            }
